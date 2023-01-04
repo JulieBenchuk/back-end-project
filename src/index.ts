@@ -1,9 +1,9 @@
 import express, {Request, Response} from 'express'
 const app = express()
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3002
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hi))))))')
+    res.send('Test!!!!!')
 })
 
 app.listen(port, () => {
